@@ -1,0 +1,204 @@
+
+{
+    "currentVersion": 10.8,
+    "serviceDescription": "Este mapa representa las instituciones del sistema distrital de salud de Bogotá.",
+    "mapName": "Layers",
+    "description": "Este mapa representa las instituciones del sistema distrital de salud de Bogotá.",
+    "copyrightText": "Secretaría Distrital de Salud - SDS",
+    "supportsDynamicLayers": true,
+    "layers": [
+      {
+        "id": 0,
+        "name": "Institución Prestadora de Salud",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPoint"
+      },
+      {
+        "id": 1,
+        "name": "Red Adscrita de Salud",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPoint"
+      },
+      {
+        "id": 2,
+        "name": "Entidad Prestadora de Salud",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPoint"
+      },
+      {
+        "id": 3,
+        "name": "Territorios Redes Salud por Localidad",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolygon"
+      },
+      {
+        "id": 4,
+        "name": "Consultorio",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPoint"
+      },
+      {
+        "id": 5,
+        "name": "Establecimiento Farmacéutico",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPoint"
+      },
+      {
+        "id": 8,
+        "name": "Consultorio Odontológico",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPoint"
+      },
+      {
+        "id": 9,
+        "name": "Centro de Atención Prioritaria en Salud ",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPoint"
+      },
+      {
+        "id": 10,
+        "name": "Territorios Redes Salud por UPZ",
+        "parentLayerId": -1,
+        "defaultVisibility": true,
+        "subLayerIds": null,
+        "minScale": 0,
+        "maxScale": 0,
+        "type": "Feature Layer",
+        "geometryType": "esriGeometryPolygon"
+      }
+    ],
+    "tables": [
+      {
+        "id": 738,
+        "name": "Servicios_Consultorio",
+        "type": "Table"
+      },
+      {
+        "id": 739,
+        "name": "Servicios_IPS",
+        "type": "Table"
+      }
+    ],
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857
+    },
+    "singleFusedMapCache": false,
+    "initialExtent": {
+      "xmin": -8273598.478249749,
+      "ymin": 509254.5810644408,
+      "xmax": -8239149.659352111,
+      "ymax": 540131.5178183143,
+      "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+      }
+    },
+    "fullExtent": {
+      "xmin": -8287711.5467,
+      "ymin": 415630.245099999,
+      "xmax": -8236143.3214,
+      "ymax": 539068.4318999981,
+      "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+      }
+    },
+    "minScale": 0,
+    "maxScale": 0,
+    "units": "esriMeters",
+    "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+    "documentInfo": {
+      "Title": "Intituciones",
+      "Author": "Secretaria Distrital de Salud,IDECA,UAECD",
+      "Comments": "Este mapa representa las instituciones del sistema distrital de salud de Bogotá",
+      "Subject": "Este mapa representa las instituciones del sistema distrital de salud de Bogotá",
+      "Category": "",
+      "AntialiasingMode": "None",
+      "TextAntialiasingMode": "Force",
+      "Keywords": "EPS, IPS, salud, SDS"
+    },
+    "capabilities": "Map,Query,Data",
+    "supportedQueryFormats": "JSON, geoJSON",
+    "exportTilesAllowed": false,
+    "referenceScale": 0,
+    "datumTransformations": [
+      {
+        "geoTransforms": [
+          {
+            "wkid": 1581,
+            "latestWkid": 1581,
+            "transformForward": false,
+            "name": "SIRGAS_To_WGS_1984_1"
+          },
+          {
+            "wkid": 108290,
+            "latestWkid": 108290,
+            "transformForward": false,
+            "name": "MAGNA_To_SIRGAS"
+          }
+        ]
+      },
+      {
+        "geoTransforms": [
+          {
+            "wkid": 108290,
+            "latestWkid": 108290,
+            "transformForward": true,
+            "name": "MAGNA_To_SIRGAS"
+          },
+          {
+            "wkid": 1581,
+            "latestWkid": 1581,
+            "transformForward": true,
+            "name": "SIRGAS_To_WGS_1984_1"
+          }
+        ]
+      }
+    ],
+    "supportsDatumTransformation": true,
+    "maxRecordCount": 1000,
+    "maxImageHeight": 4096,
+    "maxImageWidth": 4096,
+    "supportedExtensions": "WFSServer, WMSServer"
+  }
