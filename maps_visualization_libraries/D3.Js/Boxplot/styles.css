@@ -1,0 +1,70 @@
+.iqr{
+	fill: steelblue;
+  stroke-width: 1.5px
+}
+
+.medianLine{
+	stroke-width: 1.5px
+}
+
+.upperWhiskerHor{
+	stroke-width: 1.5px
+}
+
+.upperWhiskerVert{
+	stroke-width: 1.5px
+}
+
+.lowerWhiskerHor{
+	stroke-width: 1.5px
+}
+
+.lowerWhiskerVert{
+	stroke-width: 1.5px
+}
+
+.lowOutlier {
+	fill: white;
+  stroke: 1.5px;
+}
+
+.highOutlier {
+	fill: white;
+  stroke: 1.5px;
+}
+
+/*y-Achse vertikale Linie*/
+.domain, .tick line {
+	stroke-width: 0.5px;
+  stroke: black;
+}
+
+/*y-Achsen Ticklabel*/
+#yAxis text {
+
+}
+
+/*gehört zu buttons, kann weg*/
+.centered {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.tooltip{
+      position      : absolute;
+      text-align    : left-aligned;
+      max-width     : 100px;
+      max-height    : 50px;
+      padding       : 8px;
+      border        : solid;
+  		border-color : #C0C0BB;
+  		border-width : 1px;
+      border-radius : 8px;
+      margin-top    : -30px;
+      font          : 10px Italic;
+      background    : #FFF;
+      color         : #635F5D;
+      pointer-events: none;
+  }

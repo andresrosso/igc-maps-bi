@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Boxplot mit Buttons</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+  </head>
+  <body>
+      <div class="centered" >
+    		<div class="scale-group" data-toggle="buttons-radio">
+        	<button type="button" class="scaleLinear" value="scaleLinear">Linear Scale</button>
+        	<button type="button" class="scaleLog" value="scaleLog">Log10 Scale</button>
+    		</div>
+      </div>
+    	<div class="viz">
+    		<svg width="960" height="500"></svg>
+      </div>
+
+    <div id='container'></div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
